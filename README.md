@@ -24,11 +24,12 @@
 
 2. Get Litmus API Token through the Litmus UI
 
-   1. Click “SETTINGS” in the sidebar.
-   2. Click “+ NEW TOKEN” Button in the 'API Tokens' section.
+   1. Click "SETTINGS" in the sidebar.
+   2. Click "+ New Token" Button in the 'API Tokens' section.
       ![settings_tab](./docs/settings_tab.png)
-   3. Enter your information and click “Confrim”.
+   3. Enter your information and click "Confirm".
       ![create_dialog](./docs/create_dialog.png)
+   4. Get the token in the "VALUE" column.
 
 3. In the `app-config.yaml` file root directory, add litmus proxy and info like below
    ```yaml
